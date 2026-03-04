@@ -1,4 +1,4 @@
-flow_path = "internship/Data/AP01/Flow - 30-05-2024.txt"
+
 import pandas as pd
 
 def load_signal(file_path):
