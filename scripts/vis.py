@@ -121,6 +121,7 @@ for _, row in events.iterrows():
 
 plt.tight_layout()
 
+import os
 # Save PDF
 os.makedirs("Visualizations", exist_ok=True)
 plt.savefig("Visualizations/AP01_visualization.pdf")
