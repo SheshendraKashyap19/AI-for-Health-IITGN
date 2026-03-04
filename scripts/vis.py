@@ -44,7 +44,7 @@ def load_signal(file_path):
     df.set_index("timestamp", inplace=True)
 
     return df
-flow_path = "internship/Data/AP01/Flow - 30-05-2024.txt"
+base_path = "internship/Data/AP01"
 nasal = load_signal(flow_path)
 
 print(nasal.head())
